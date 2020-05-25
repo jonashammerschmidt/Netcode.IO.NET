@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netcode.IO.NET", "Netcode.IO.NET\Netcode.IO.NET.csproj", "{74122CF9-7E4C-4EA7-9AEC-FC1501BC712A}"
 EndProject
@@ -10,6 +10,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F720D193-F17E-4D79-8E26-7C12027F834B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netcode.IO Unit Tests", "Netcode.IO Unit Tests\Netcode.IO Unit Tests.csproj", "{E42AD327-2D44-44B8-8E4C-05522574046B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netcode.IO.NET.Core", "Netcode.IO.NET.Core\Netcode.IO.NET.Core.csproj", "{74B14687-99AD-469C-BD18-1C009761C4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCCrypto.Core", "BCCrypto.Core\BCCrypto.Core.csproj", "{8BA334A3-1F97-48FE-9C1A-876006630BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netcode.IO Unit Tests.Core", "Netcode.IO Unit Tests.Core\Netcode.IO Unit Tests.Core.csproj", "{F8707F84-97AC-42DB-A53C-75079A73DE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Core", "Test.Core\Test.Core.csproj", "{216D16FD-56B9-48B1-ACC9-1B7E01200ACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +41,27 @@ Global
 		{E42AD327-2D44-44B8-8E4C-05522574046B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E42AD327-2D44-44B8-8E4C-05522574046B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E42AD327-2D44-44B8-8E4C-05522574046B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B14687-99AD-469C-BD18-1C009761C4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B14687-99AD-469C-BD18-1C009761C4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B14687-99AD-469C-BD18-1C009761C4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B14687-99AD-469C-BD18-1C009761C4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA334A3-1F97-48FE-9C1A-876006630BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA334A3-1F97-48FE-9C1A-876006630BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA334A3-1F97-48FE-9C1A-876006630BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA334A3-1F97-48FE-9C1A-876006630BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8707F84-97AC-42DB-A53C-75079A73DE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8707F84-97AC-42DB-A53C-75079A73DE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8707F84-97AC-42DB-A53C-75079A73DE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8707F84-97AC-42DB-A53C-75079A73DE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216D16FD-56B9-48B1-ACC9-1B7E01200ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216D16FD-56B9-48B1-ACC9-1B7E01200ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216D16FD-56B9-48B1-ACC9-1B7E01200ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216D16FD-56B9-48B1-ACC9-1B7E01200ACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B52D1321-EB25-4C61-B27D-D2C0E1234191}
 	EndGlobalSection
 EndGlobal
